@@ -19,7 +19,7 @@ export default function HomePage() {
   return (
     <main>
       <head>
-        <title>CRMBD</title>
+        <title>PINCH ME</title>
       </head>
       <div className='bg-gray-900 text-white h-screen flex items-center justify-center'>
         <div className='flex flex-col items-center justify-center text-center'>
