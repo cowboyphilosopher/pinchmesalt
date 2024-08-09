@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import * as React from 'react';
 import '@/lib/env';
 
@@ -24,17 +23,18 @@ export default function HomePage() {
       </head>
       <div className='bg-gray-900 text-white h-screen flex items-center justify-center'>
         <div className='flex flex-col items-center justify-center text-center'>
-          <Image
-            src='/images/crmbdlogo1.jpg'
-            alt='CRMBD Image'
-            className='max-w-full h-auto'
+          <img
+            src="/images/pinch.gif"
+            alt="pinch Image"
+            className="max-w-full h-auto"
+            style={{ width: '100%' }}
           />
           <div className='instagram-media'>
             <div style={{ padding: '16px' }}>
               <a href='https://www.instagram.com/crmbizdev/'>
-                Follow CRMBizDev on Instagram
+                Follow PinchMeSalt on Instagram
               </a>
-              <p className='mt-4 text-lg'>crmbd@mail.com</p>
+              <p className='mt-4 text-lg'>PinchMeSalt@mail.com</p>
             </div>
           </div>
         </div>
